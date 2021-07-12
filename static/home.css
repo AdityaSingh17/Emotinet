@@ -1,0 +1,217 @@
+body {
+    margin: 0%;
+    background-image: linear-gradient(
+        180deg,
+        rgba(98, 98, 218, 0.671),
+        rgb(201, 160, 160)
+    );
+    height: 40em;
+}
+
+#logo {
+    position: absolute;
+    top: 0.2em;
+    left: 1em;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 6em;
+    width: 7em;
+}
+
+#container {
+    width: 100%;
+    height: 4em;
+    text-align: right;
+    background-image: linear-gradient(
+        180deg,
+        rgba(247, 95, 95, 0.774),
+        rgba(98, 98, 218, 0.671)
+    );
+    padding-top: 2.5em;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.btn {
+    border-radius: 20%;
+    border: double;
+    padding: 0.8em;
+    margin: 0.4em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(199, 199, 255);
+    font-size: 115%;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+#label {
+    margin-top: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 650%;
+}
+
+#livevideo {
+    width: 0em;
+    height: 0em;
+}
+
+.booth {
+    border: 10px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 40em;
+    height: 30em;
+    margin-left: 22em;
+    margin-top: 2em;
+}
+
+#add {
+    border: 0.1em solid black;
+    border-radius: 50%;
+    padding: 0.3em;
+    cursor: pointer;
+    position: absolute;
+    font-size: 450%;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 2.5em;
+    margin-left: 0.7em;
+}
+
+#rem {
+    width: 4.5em;
+    border: 0.1em solid black;
+    border-radius: 48%;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 400%;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: -4.9em;
+    margin-left: 16.7em;
+}
+
+#imgpreview {
+    border: 10px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 40em;
+    height: 30em;
+    margin-left: 24em;
+    margin-top: 2em;
+}
+
+#defaulttext {
+    margin-top: 18%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 580%;
+}
+
+#vid {
+    margin-left: 9em;
+    padding: 0.4em;
+    width: 26%;
+    border: 0.1em solid black;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 350%;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 0.2em;
+    position: absolute;
+}
+
+#videoPreview {
+    margin-top: 9em;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 2em;
+    margin-bottom: -1em;
+    width: 67em;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    letter-spacing: 0.13em;
+}
+
+#profile {
+    margin: 1em;
+    width: 18em;
+    height: 18em;
+}
+#info {
+    position: absolute;
+    font-size: 1.4em;
+    font-family: 'Arial';
+    color: rgb(10, 10, 10);
+    margin: 2em;
+}
+
+.fa {
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-linkedin {
+    margin-top: 1em;
+    background: #007bb5;
+    color: rgb(255, 255, 255);
+}
+.fa-github {
+    margin: 1em;
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.vid1 {
+    margin-left: 9em;
+    padding: 0.4em;
+    width: 26%;
+    border: 0.1em solid black;
+    border-radius: 55%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 1.2em;
+    position: absolute;
+}
+
+.vid2 {
+    margin-left: 9em;
+    padding: 0.4em;
+    width: 26%;
+    border: 0.1em solid black;
+    border-radius: 55%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-top: 5.5em;
+    position: absolute;
+}
+
+.pred {
+    position: absolute;
+    top: 42em;
+    right: 2.5em;
+    width: 100%;
+    text-align: center;
+}
